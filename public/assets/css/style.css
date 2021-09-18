@@ -1,0 +1,203 @@
+
+#emailhome{
+    margin-bottom: 50px;
+}
+.banner{
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.banner h1{
+    padding-top: 80px;
+}
+
+.banner p{
+    padding-right: 50%;
+}
+/* .banner{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;   
+}
+.banner h1 {
+    padding-top: 200px;    
+    position: relative;
+    z-index: 2;
+}
+.banner p{
+    padding-bottom: 200px; 
+    padding-right: 50%;   
+    position: relative;    
+    z-index: 2;
+}
+
+.banner img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    /* opacity: 0.5; */
+/* } */ 
+form{
+    margin-top: 50px;
+}
+.form-check-input{
+    margin-left: 1%;
+    transform: scale(1.5);
+}
+.btn-secondary{
+    background-color: #108B70;
+}
+.btn-secondary:hover{
+    background-color: #108B70 ;
+}
+.topo{
+    margin-right: 10px;
+}
+.table.table-hover{
+    margin-top: 50px;
+}
+.botao-home{
+    margin-bottom: 50px;
+}
+.btn-block{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+tbody tr td{
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    max-width: 10ch;    
+}
+.obrigado{
+    margin-top: 20px;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.instrucao{
+    font-weight: bold;
+}
+
+footer .dev{
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 990px)
+{
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner p{
+        padding-right: 40%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .banner h1{
+        font-size: 20px;
+    }
+    .banner p{
+        padding-right: 20%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 600px){
+    .banner{
+        /*background-image: url("../images/banner.jpg");*/
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        background-color: #f7f7f7;
+    }
+    .banner h1{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .banner p{
+        padding-right: 30%;   
+        font-weight: bold;            
+    }
+    h1.mt-5{
+        font-size: 30px;
+    }
+
+    .lead.text-justify{
+        font-size: 16px;
+    }
+
+    .loading img{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 400px){
+    .banner{
+        /*background-image: url("../images/banner.jpg");*/
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        background-color: #f7f7f7;
+    }
+    .banner p{
+        padding-right: 15%;   
+        font-weight: bold;            
+    }
+
+    h1.mt-5{
+        font-size: 30px;
+        font-weight: bold; 
+    }
+
+    .lead.text-justify{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 321px){
+    .banner{
+        /*background-image: url("../images/banner.jpg");*/
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        background-color: #f7f7f7;
+    }
+    
+    .form-check-input{
+    margin-left: 0;
+    
+    }
+    .banner h1{
+        font-size: 30px;
+        padding-top: 10px;
+        font-weight: bold; 
+    }
+    .banner p{
+        padding-right: 10%;   
+        font-weight: bold;            
+    }
+
+    h1.mt-5{
+        font-size: 30px;
+    }
+
+    .lead.text-justify{
+        font-size: 16px;
+    }
+}
