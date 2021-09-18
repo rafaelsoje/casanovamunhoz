@@ -10,8 +10,11 @@ Depois é só aguardar.
 
 ## Frameworks / Bibliotecas
 clancats/hydrahon
+
 phpmailer/phpmailer
+
 twbs/bootstrap
+
 
 intstale os framwors e bibliotecas com o comando:
 > composer update
